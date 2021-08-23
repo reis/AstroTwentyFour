@@ -1,0 +1,50 @@
+<strings>
+
+    <string id="AppName">Simple Lines 24-hour</string>
+
+    <string id="BackgroundColor">Background Color</string>
+    <string id="ForegroundColor">Foreground Color</string>
+    
+    <string id="ShowDate">Show Date</string>
+    <string id="ShowMoon">Show Moon</string>
+    <string id="ShowSteps">Show Steps</string>
+    <string id="ShowBattery">Show Battery</string>
+
+    <string id="Hand12Show">Show the 12-hour hand</string>
+    <string id="Hand12Color">12-hour Hand Color</string>
+    <string id="Hand12Width">Width of 12-hour hand</string>
+    <string id="Hand12Length">Length of 12-hour hand</string>
+    
+    <string id="Hand24Show">Show the 24-hour hand</string>
+    <string id="Hand24Color">24-hour Hand Color</string>
+    <string id="Hand24Width">Width of 24-hour hand</string>
+    <string id="Hand24Length">Length of 24-hour hand</string>
+
+    <string id="ShowMinuteHand">Show the minute hand</string>
+    <string id="MinuteColor">Minute Hand Color</string>
+    <string id="MinuteWidth">Width of minute hand</string>
+
+    <string id="AutomaticPosition">Get position automaticaly from last activity</string>
+    <string id="Latitude">Latitude</string>
+    <string id="Longitude">Longitude</string>
+    <string id="ShowSunLines">Show Sunrise/Sunset Lines</string>
+    <string id="SunLinesColor">Sunrise/Sunset Color</string>
+    <string id="ShowNoonLine">Show solar noon line</string>
+    
+    <string id="ShowNightLines">Show Dawn/Dusk Lines</string>
+    <string id="NightLinesColor">Dawn/Dusk Color</string>
+
+    <string id="ColorBlack">Black</string>
+    <string id="ColorWhite">White</string>
+    <string id="ColorBlue">Dark Blue</string>
+    <string id="ColorLightBlue">Light Blue</string>
+    <string id="ColorGreen">Green</string>
+    <string id="ColorRed">Red</string>
+    <string id="ColorYellow">Yellow</string>
+    <string id="ColorPink">Pink</string>
+
+    <string id="WidthLong">Long</string>
+    <string id="WidthMedium">Medium</string>
+    <string id="WidthShort">Short</string>
+
+</strings>

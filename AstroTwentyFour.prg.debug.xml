@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<debugInfo>
+    <manifest filename="C:\mine\dev\garmin\AstroTwentyFour\manifest.xml"/>
+    <pcToLineNum>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="3" lineNum="10" pc="268435456" symbol="drawDay"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="3" lineNum="11" pc="268435468" symbol="drawDay"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="3" lineNum="12" pc="268435481" symbol="drawDay"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="3" lineNum="14" pc="268435494" symbol="drawDay"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="3" lineNum="20" pc="268435593" symbol="drawDay"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="3" lineNum="23" pc="268435646" symbol="drawDay"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="29" pc="268435800" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="30" pc="268435812" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="31" pc="268435825" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="33" pc="268435838" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="35" pc="268435943" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="68" pc="268436341" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="69" pc="268436378" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="4" lineNum="70" pc="268436431" symbol="drawMoonIcon"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="5" lineNum="76" pc="268436504" symbol="drawMoonAge"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="5" lineNum="77" pc="268436516" symbol="drawMoonAge"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="5" lineNum="78" pc="268436529" symbol="drawMoonAge"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="5" lineNum="80" pc="268436542" symbol="drawMoonAge"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="5" lineNum="87" pc="268436647" symbol="drawMoonAge"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="5" lineNum="88" pc="268436700" symbol="drawMoonAge"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="6" lineNum="92" pc="268436780" symbol="drawSteps"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="6" lineNum="93" pc="268436792" symbol="drawSteps"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="6" lineNum="94" pc="268436805" symbol="drawSteps"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="6" lineNum="96" pc="268436818" symbol="drawSteps"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="6" lineNum="98" pc="268436917" symbol="drawSteps"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="6" lineNum="99" pc="268436970" symbol="drawSteps"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="7" lineNum="103" pc="268437098" symbol="drawBattery"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="7" lineNum="104" pc="268437110" symbol="drawBattery"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="7" lineNum="105" pc="268437123" symbol="drawBattery"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="7" lineNum="107" pc="268437136" symbol="drawBattery"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="7" lineNum="109" pc="268437241" symbol="drawBattery"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Fields.mc" id="7" lineNum="110" pc="268437294" symbol="drawBattery"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="9" lineNum="6" pc="268437380" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="9" lineNum="7" pc="268437384" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="10" lineNum="11" pc="268437403" symbol="onStart"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="11" lineNum="15" pc="268437408" symbol="onStop"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="12" lineNum="19" pc="268437413" symbol="getInitialView"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="12" lineNum="20" pc="268437417" symbol="getInitialView"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="13" lineNum="24" pc="268437455" symbol="onSettingsChanged"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourApp.mc" id="13" lineNum="25" pc="268437459" symbol="onSettingsChanged"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourBackground.mc" id="15" lineNum="7" pc="268437476" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourBackground.mc" id="15" lineNum="8" pc="268437480" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourBackground.mc" id="15" lineNum="12" pc="268437501" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourBackground.mc" id="16" lineNum="15" pc="268437522" symbol="draw"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourBackground.mc" id="16" lineNum="17" pc="268437526" symbol="draw"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourBackground.mc" id="16" lineNum="18" pc="268437579" symbol="draw"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="9" pc="268437592" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="12" pc="268437604" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="16" pc="268437796" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="17" pc="268437804" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="18" pc="268437823" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="21" pc="268437842" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="22" pc="268437860" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="23" pc="268437897" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="25" pc="268437934" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="18" lineNum="28" pc="268437996" symbol="generateHandCoordinates"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="31" pc="268438000" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="32" pc="268438012" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="33" pc="268438012" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="34" pc="268438012" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="35" pc="268438025" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="36" pc="268438038" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="37" pc="268438057" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="39" pc="268438076" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="40" pc="268438076" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="42" pc="268438083" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="43" pc="268438090" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="45" pc="268438090" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="46" pc="268438100" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="48" pc="268438110" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="49" pc="268438141" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="50" pc="268438172" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="51" pc="268438172" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="52" pc="268438172" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="53" pc="268438172" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="54" pc="268438172" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="56" pc="268438172" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="58" pc="268438189" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="59" pc="268438239" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="60" pc="268438295" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="61" pc="268438299" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="62" pc="268438306" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="64" pc="268438313" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="65" pc="268438331" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="70" pc="268438679" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="71" pc="268438705" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="73" pc="268438719" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="74" pc="268438745" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="75" pc="268438762" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="76" pc="268438780" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="78" pc="268438861" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="81" pc="268438923" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="82" pc="268438952" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="83" pc="268438987" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="84" pc="268438991" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="85" pc="268438998" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="88" pc="268439018" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="90" pc="268439071" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="91" pc="268439104" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="92" pc="268439121" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Hands.mc" id="19" lineNum="93" pc="268439157" symbol="drawHands"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="21" lineNum="54" pc="268439191" symbol="fromJulian"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="21" lineNum="55" pc="268439203" symbol="fromJulian"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="22" lineNum="58" pc="268439257" symbol="round"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="22" lineNum="59" pc="268439269" symbol="round"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="22" lineNum="60" pc="268439280" symbol="round"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="22" lineNum="62" pc="268439310" symbol="round"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="67" pc="268439338" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="68" pc="268439350" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="69" pc="268439405" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="70" pc="268439436" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="72" pc="268439478" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="73" pc="268439521" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="74" pc="268439549" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="75" pc="268439580" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="76" pc="268439683" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="77" pc="268439723" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="78" pc="268439760" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="79" pc="268439812" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="80" pc="268439867" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="81" pc="268439877" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="84" pc="268439890" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="85" pc="268439904" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="88" pc="268439927" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="90" pc="268440039" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="91" pc="268440064" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="94" pc="268440069" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="96" pc="268440124" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="97" pc="268440167" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="98" pc="268440181" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="101" pc="268440198" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="23" lineNum="103" pc="268440220" symbol="calculate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="24" lineNum="107" pc="268440235" symbol="getsuntime"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="24" lineNum="108" pc="268440247" symbol="getsuntime"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="24" lineNum="111" pc="268440286" symbol="getsuntime"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="24" lineNum="112" pc="268440325" symbol="getsuntime"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="24" lineNum="25" pc="268444578" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Sun.mc" id="24" lineNum="33" pc="268444987" symbol="&lt;init&gt;"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="26" lineNum="18" pc="268440329" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="26" lineNum="19" pc="268440333" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="26" lineNum="20" pc="268440351" symbol="initialize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="27" lineNum="23" pc="268440375" symbol="onLayout"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="27" lineNum="24" pc="268440379" symbol="onLayout"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="27" lineNum="25" pc="268440404" symbol="onLayout"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="27" lineNum="26" pc="268440429" symbol="onLayout"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="27" lineNum="27" pc="268440454" symbol="onLayout"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="32" pc="268440469" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="33" pc="268440473" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="34" pc="268440487" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="36" pc="268440512" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="37" pc="268440512" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="38" pc="268440512" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="40" pc="268440512" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="41" pc="268440557" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="71" pc="268440602" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="75" pc="268440654" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="76" pc="268440691" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="77" pc="268440724" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="78" pc="268440757" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="79" pc="268440790" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="81" pc="268440823" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="82" pc="268440840" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="83" pc="268440876" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="95" pc="268440891" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="96" pc="268440916" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="97" pc="268440975" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="98" pc="268441034" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="99" pc="268441059" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="100" pc="268441092" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="101" pc="268441151" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="105" pc="268441231" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="106" pc="268441256" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="107" pc="268441315" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="117" pc="268441377" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="118" pc="268441402" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="121" pc="268441513" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="122" pc="268441538" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="126" pc="268441626" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="127" pc="268441651" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="131" pc="268441762" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="132" pc="268441787" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="133" pc="268441837" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="136" pc="268441862" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="137" pc="268441887" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="138" pc="268441937" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="139" pc="268442007" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="140" pc="268442029" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="143" pc="268442054" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="144" pc="268442079" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="145" pc="268442102" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="148" pc="268442127" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="149" pc="268442152" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="150" pc="268442201" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="28" lineNum="163" pc="268442226" symbol="onUpdate"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="29" lineNum="167" pc="268442241" symbol="clear"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="29" lineNum="168" pc="268442245" symbol="clear"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="29" lineNum="169" pc="268442319" symbol="clear"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="173" pc="268442332" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="174" pc="268442336" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="175" pc="268442352" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="176" pc="268442374" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="177" pc="268442399" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="179" pc="268442424" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="180" pc="268442449" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="181" pc="268442449" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="182" pc="268442466" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="183" pc="268442476" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="185" pc="268442550" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="186" pc="268442561" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="187" pc="268442578" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="188" pc="268442591" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="189" pc="268442616" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="190" pc="268442633" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="191" pc="268442646" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="192" pc="268442657" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="193" pc="268442674" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="195" pc="268442687" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="196" pc="268442704" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="199" pc="268442714" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="200" pc="268442735" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="202" pc="268442756" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="203" pc="268442763" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="204" pc="268442770" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="205" pc="268442777" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="208" pc="268442784" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="209" pc="268442840" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="210" pc="268442896" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="211" pc="268442952" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="212" pc="268443008" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="213" pc="268443064" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="214" pc="268443120" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="215" pc="268443176" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="30" lineNum="217" pc="268443232" symbol="drawDial"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="222" pc="268443253" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="223" pc="268443257" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="224" pc="268443270" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="225" pc="268443291" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="226" pc="268443312" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="227" pc="268443328" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="229" pc="268443344" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="230" pc="268443360" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="31" lineNum="231" pc="268443374" symbol="drawHand"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="32" lineNum="250" pc="268443407" symbol="timeAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="32" lineNum="252" pc="268443411" symbol="timeAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="32" lineNum="254" pc="268443418" symbol="timeAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="32" lineNum="255" pc="268443455" symbol="timeAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="32" lineNum="258" pc="268443483" symbol="timeAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="33" lineNum="261" pc="268443520" symbol="timeAngle12"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="33" lineNum="263" pc="268443524" symbol="timeAngle12"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="33" lineNum="265" pc="268443561" symbol="timeAngle12"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="33" lineNum="268" pc="268443589" symbol="timeAngle12"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="34" lineNum="273" pc="268443629" symbol="minuteAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="34" lineNum="274" pc="268443633" symbol="minuteAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="34" lineNum="275" pc="268443670" symbol="minuteAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="34" lineNum="276" pc="268443686" symbol="minuteAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="34" lineNum="280" pc="268443711" symbol="minuteAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\AstroTwentyFourView.mc" id="34" lineNum="281" pc="268443750" symbol="minuteAngle"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="4" pc="268443754" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="7" pc="268443766" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="8" pc="268443776" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="9" pc="268443786" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="10" pc="268443797" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="13" pc="268443810" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="16" pc="268443832" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="17" pc="268443843" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="19" pc="268443856" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="22" pc="268443878" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="23" pc="268443897" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="24" pc="268443908" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="36" lineNum="27" pc="268443921" symbol="calcmoonphase"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="30" pc="268443925" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="32" pc="268443937" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="34" pc="268443944" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="35" pc="268443951" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="36" pc="268443958" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="37" pc="268443965" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="38" pc="268443972" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="39" pc="268443979" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="40" pc="268443986" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="42" pc="268443993" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="43" pc="268444027" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="44" pc="268444037" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="45" pc="268444048" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="48" pc="268444061" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="49" pc="268444092" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="50" pc="268444123" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="52" pc="268444181" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="53" pc="268444197" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="54" pc="268444208" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="57" pc="268444218" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="58" pc="268444245" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="37" lineNum="60" pc="268444255" symbol="getmoonage"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="38" lineNum="63" pc="268444268" symbol="normalize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="38" lineNum="65" pc="268444280" symbol="normalize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="38" lineNum="66" pc="268444302" symbol="normalize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="38" lineNum="67" pc="268444313" symbol="normalize"/>
+        <entry filename="C:\\mine\\dev\\garmin\\AstroTwentyFour\\source\\Moon.mc" id="38" lineNum="69" pc="268444326" symbol="normalize"/>
+        <entry filename="Rez" id="44" lineNum="19" pc="268444330" symbol="WatchFace"/>
+        <entry filename="Rez" id="44" lineNum="21" pc="268444342" symbol="WatchFace"/>
+        <entry filename="Rez" id="44" lineNum="22" pc="268444366" symbol="WatchFace"/>
+        <entry filename="Rez" id="44" lineNum="24" pc="268444529" symbol="WatchFace"/>
+    </pcToLineNum>
+    <symbolTable>
+        <entry id="8388639" module="true" symbol="Graphics"/>
+        <entry id="128" method="true" symbol="generateHandCoordinates"/>
+        <entry id="8388632" method="true" symbol="&lt;init&gt;"/>
+        <entry id="57" method="true" symbol="getsuntime"/>
+        <entry field="true" id="75" symbol="ShowMinuteHand"/>
+        <entry id="5" module="true" symbol="globals/Rez/Menus"/>
+        <entry id="14" object="true" symbol="AstroTwentyFourApp"/>
+        <entry id="2" module="true" symbol="globals/Sun"/>
+        <entry field="true" id="109" symbol="ColorGreen"/>
+        <entry id="143" method="true" symbol="normalize"/>
+        <entry id="8389683" method="true" symbol="onSettingsChanged"/>
+        <entry field="true" id="102" symbol="ColorYellow"/>
+        <entry field="true" id="100" symbol="Hand24Color"/>
+        <entry field="true" id="38" symbol="PI2"/>
+        <entry field="true" id="24" symbol="GOLDEN_HOUR_PM"/>
+        <entry field="true" id="8389759" symbol="radius"/>
+        <entry field="true" id="103" symbol="Hand24Length"/>
+        <entry field="true" id="66" symbol="ColorRed"/>
+        <entry field="true" id="122" symbol="ShowBattery"/>
+        <entry field="true" id="112" symbol="DualTime1Offset"/>
+        <entry field="true" id="99" symbol="DualTime2Offset"/>
+        <entry id="138" method="true" symbol="timeAngle"/>
+        <entry field="true" id="65" symbol="Latitude"/>
+        <entry field="true" id="22" symbol="GOLDEN_HOUR_AM"/>
+        <entry field="true" id="124" symbol="NbrP9"/>
+        <entry field="true" id="126" symbol="NbrP8"/>
+        <entry field="true" id="119" symbol="NbrP7"/>
+        <entry field="true" id="121" symbol="NbrP6"/>
+        <entry field="true" id="117" symbol="NbrP5"/>
+        <entry field="true" id="118" symbol="NbrP4"/>
+        <entry field="true" id="115" symbol="NbrP3"/>
+        <entry field="true" id="116" symbol="NbrP2"/>
+        <entry field="true" id="63" symbol="NbrP1"/>
+        <entry field="true" id="30" symbol="NIGHT"/>
+        <entry field="true" id="85" symbol="NbrN9"/>
+        <entry field="true" id="86" symbol="NbrN8"/>
+        <entry field="true" id="94" symbol="NbrN7"/>
+        <entry field="true" id="95" symbol="NbrN6"/>
+        <entry field="true" id="92" symbol="NbrN5"/>
+        <entry field="true" id="93" symbol="NbrN4"/>
+        <entry field="true" id="89" symbol="NbrN3"/>
+        <entry field="true" id="8388611" module="true" symbol="Toybox"/>
+        <entry field="true" id="90" symbol="NbrN2"/>
+        <entry field="true" id="88" symbol="NbrN1"/>
+        <entry field="true" id="40" symbol="J1970"/>
+        <entry field="true" id="96" symbol="ColorBlue"/>
+        <entry field="true" id="132" symbol="app"/>
+        <entry id="140" method="true" symbol="minuteAngle"/>
+        <entry field="true" id="43" symbol="TIMES"/>
+        <entry id="142" method="true" symbol="getmoonage"/>
+        <entry field="true" id="104" symbol="AppName"/>
+        <entry id="9" module="true" symbol="globals/Rez/Strings"/>
+        <entry id="8388772" module="true" object="true" symbol="Fonts"/>
+        <entry field="true" id="70" symbol="ShowNightLines"/>
+        <entry field="true" id="81" symbol="ShowSunLines"/>
+        <entry field="true" id="114" symbol="SunLinesColor"/>
+        <entry field="true" id="49" symbol="sinM"/>
+        <entry id="8388648" module="true" symbol="WatchUi"/>
+        <entry field="true" id="20" symbol="SUNRISE"/>
+        <entry id="3" module="true" symbol="globals/Rez"/>
+        <entry field="true" id="69" symbol="Hand12Length"/>
+        <entry field="true" id="16" symbol="NIGHT_END"/>
+        <entry field="true" id="29" symbol="NAUTICAL_DUSK"/>
+        <entry id="8389124" method="true" symbol="onUpdate"/>
+        <entry id="8389375" method="true" object="true" symbol="WatchFace"/>
+        <entry field="true" id="8389065" symbol="locY"/>
+        <entry field="true" id="8389064" symbol="locX"/>
+        <entry field="true" id="125" symbol="BackgroundColor"/>
+        <entry field="true" id="80" symbol="NbrP12"/>
+        <entry field="true" id="79" symbol="NbrP11"/>
+        <entry field="true" id="78" symbol="NbrP10"/>
+        <entry id="8389719" method="true" symbol="round"/>
+        <entry field="true" id="74" symbol="WidthLong"/>
+        <entry id="147" method="true" symbol="drawSteps"/>
+        <entry id="11" module="true" symbol="globals/Moon"/>
+        <entry id="8388771" module="true" object="true" symbol="Drawables"/>
+        <entry id="8389348" symbol="font"/>
+        <entry id="32" module="true" symbol="Sun"/>
+        <entry id="59" module="true" symbol="Menus"/>
+        <entry id="12" module="true" symbol="globals/Fields"/>
+        <entry id="7" module="true" symbol="globals/Rez/Layouts"/>
+        <entry field="true" id="27" symbol="BLUE_HOUR_PM"/>
+        <entry id="139" method="true" symbol="timeAngle12"/>
+        <entry id="148" method="true" symbol="drawBattery"/>
+        <entry id="8389122" method="true" symbol="onLayout"/>
+        <entry field="true" id="61" symbol="moon"/>
+        <entry field="true" id="8389063" symbol="identifier"/>
+        <entry id="8389349" symbol="justification"/>
+        <entry field="true" id="17" symbol="NAUTICAL_DAWN"/>
+        <entry field="true" id="47" symbol="ds"/>
+        <entry field="true" id="19" symbol="BLUE_HOUR_AM"/>
+        <entry field="true" id="28" symbol="DUSK"/>
+        <entry field="true" id="73" symbol="ColorWhite"/>
+        <entry field="true" id="137" symbol="CLOCK_OFFSET"/>
+        <entry id="8" module="true" symbol="globals/Rez/JsonData"/>
+        <entry field="true" id="26" symbol="SUNSET"/>
+        <entry field="true" id="110" symbol="ColorBlack"/>
+        <entry id="55" method="true" symbol="fromJulian"/>
+        <entry field="true" id="101" symbol="ShowDate"/>
+        <entry id="4" module="true" symbol="globals/Rez/Drawables"/>
+        <entry field="true" id="87" symbol="Hand24Show"/>
+        <entry field="true" id="67" symbol="MinuteWidth"/>
+        <entry field="true" id="52" symbol="sin2L"/>
+        <entry id="8389177" method="true" symbol="clear"/>
+        <entry field="true" id="120" symbol="WidthMedium"/>
+        <entry field="true" id="106" symbol="Hand12Width"/>
+        <entry field="true" id="8388893" symbol="PI"/>
+        <entry id="15" module="true" symbol="Hands"/>
+        <entry field="true" id="31" symbol="NUM_RESULTS"/>
+        <entry field="true" id="44" symbol="lastD"/>
+        <entry id="10" module="true" symbol="globals/Hands"/>
+        <entry field="true" id="39" symbol="DAYS"/>
+        <entry field="true" id="84" symbol="ShowDualTime2"/>
+        <entry field="true" id="82" symbol="ShowDualTime1"/>
+        <entry field="true" id="18" symbol="DAWN"/>
+        <entry field="true" id="42" symbol="J0"/>
+        <entry field="true" id="135" symbol="MINUTES_PER_HOUR"/>
+        <entry id="56" method="true" symbol="calculate"/>
+        <entry id="36" module="true" symbol="Moon"/>
+        <entry id="8388645" module="true" symbol="Time"/>
+        <entry id="8388769" module="true" object="true" symbol="Rez"/>
+        <entry field="true" id="45" symbol="lastLng"/>
+        <entry field="true" id="54" symbol="Jnoon"/>
+        <entry id="35" object="true" symbol="AstroTwentyFourView"/>
+        <entry field="true" id="98" symbol="Hand12Show"/>
+        <entry id="8388640" module="true" symbol="Lang"/>
+        <entry field="true" id="64" symbol="Hand24Width"/>
+        <entry id="141" method="true" symbol="calcmoonphase"/>
+        <entry id="8390088" module="true" object="true" symbol="JsonData"/>
+        <entry id="134" method="true" symbol="drawHand"/>
+        <entry field="true" id="76" symbol="NbrN12"/>
+        <entry field="true" id="77" symbol="NbrN11"/>
+        <entry field="true" id="91" symbol="NbrN10"/>
+        <entry id="8389068" method="true" symbol="draw"/>
+        <entry field="true" id="34" symbol="LON"/>
+        <entry field="true" id="60" symbol="LauncherIcon"/>
+        <entry field="true" id="108" symbol="ShowSteps"/>
+        <entry id="8388610" symbol="statics"/>
+        <entry field="true" id="71" symbol="ShowMoon"/>
+        <entry id="8389350" module="true" symbol="globals"/>
+        <entry id="8388770" module="true" object="true" symbol="Strings"/>
+        <entry id="8390146" module="true" object="true" symbol="Background"/>
+        <entry field="true" id="131" symbol="centerY"/>
+        <entry field="true" id="130" symbol="centerX"/>
+        <entry field="true" id="33" symbol="LAT"/>
+        <entry id="8388702" method="true" symbol="initialize"/>
+        <entry id="8389279" method="true" symbol="onStart"/>
+        <entry id="13" module="true" symbol="Fields"/>
+        <entry id="8388641" module="true" symbol="Math"/>
+        <entry field="true" id="25" symbol="SUNSET_START"/>
+        <entry field="true" id="41" symbol="J2000"/>
+        <entry field="true" id="136" symbol="MINUTES_PER_DAY"/>
+        <entry field="true" id="113" symbol="Nbr0"/>
+        <entry field="true" id="53" symbol="dec"/>
+        <entry id="8389280" method="true" symbol="getInitialView"/>
+        <entry field="true" id="37" symbol="RAD"/>
+        <entry field="true" id="62" symbol="ShowNoonLine"/>
+        <entry id="8389281" method="true" symbol="onStop"/>
+        <entry id="8389347" symbol="color"/>
+        <entry field="true" id="72" symbol="ForegroundColor"/>
+        <entry field="true" id="107" symbol="ColorPink"/>
+        <entry id="145" method="true" symbol="drawMoonIcon"/>
+        <entry field="true" id="21" symbol="SUNRISE_END"/>
+        <entry field="true" id="83" symbol="Longitude"/>
+        <entry field="true" id="111" symbol="AutomaticPosition"/>
+        <entry id="129" method="true" symbol="drawHands"/>
+        <entry id="58" module="true" symbol="Layouts"/>
+        <entry id="133" method="true" symbol="drawDial"/>
+        <entry field="true" id="123" symbol="ColorLightBlue"/>
+        <entry id="146" method="true" symbol="drawMoonAge"/>
+        <entry field="true" id="127" symbol="WidthShort"/>
+        <entry id="6" module="true" symbol="globals/Rez/Fonts"/>
+        <entry field="true" id="105" symbol="NightLinesColor"/>
+        <entry field="true" id="23" symbol="NOON"/>
+        <entry field="true" id="97" symbol="MinuteColor"/>
+        <entry id="8388635" module="true" symbol="Application"/>
+        <entry field="true" id="46" symbol="n"/>
+        <entry field="true" id="48" symbol="M"/>
+        <entry field="true" id="51" symbol="L"/>
+        <entry field="true" id="50" symbol="C"/>
+        <entry field="true" id="68" symbol="Hand12Color"/>
+        <entry id="144" method="true" symbol="drawDay"/>
+    </symbolTable>
+    <localVars>
+        <entry endPc="268435799" name="height" stackId="4" startPc="268435468"/>
+        <entry endPc="268435799" name="position12" stackId="5" startPc="268435468"/>
+        <entry endPc="268435799" name="width" stackId="3" startPc="268435468"/>
+        <entry arg="true" endPc="268435800" name="dc" stackId="1" startPc="268435456"/>
+        <entry arg="true" endPc="268435800" name="gregorianInfo" stackId="2" startPc="268435456"/>
+        <entry endPc="268436503" name="height" stackId="4" startPc="268435812"/>
+        <entry endPc="268436503" name="font" stackId="7" startPc="268435812"/>
+        <entry endPc="268436503" name="moon_char" stackId="6" startPc="268435812"/>
+        <entry endPc="268436503" name="width" stackId="3" startPc="268435812"/>
+        <entry endPc="268436503" name="position3" stackId="5" startPc="268435812"/>
+        <entry arg="true" endPc="268436504" name="dc" stackId="1" startPc="268435800"/>
+        <entry arg="true" endPc="268436504" name="moonage" stackId="2" startPc="268435800"/>
+        <entry endPc="268436779" name="height" stackId="4" startPc="268436516"/>
+        <entry endPc="268436779" name="width" stackId="3" startPc="268436516"/>
+        <entry endPc="268436779" name="position3" stackId="5" startPc="268436516"/>
+        <entry arg="true" endPc="268436780" name="dc" stackId="1" startPc="268436504"/>
+        <entry arg="true" endPc="268436780" name="moonage" stackId="2" startPc="268436504"/>
+        <entry endPc="268437097" name="height" stackId="4" startPc="268436792"/>
+        <entry endPc="268437097" name="width" stackId="3" startPc="268436792"/>
+        <entry endPc="268437097" name="position6" stackId="5" startPc="268436792"/>
+        <entry arg="true" endPc="268437098" name="dc" stackId="1" startPc="268436780"/>
+        <entry arg="true" endPc="268437098" name="steps" stackId="2" startPc="268436780"/>
+        <entry endPc="268437379" name="height" stackId="4" startPc="268437110"/>
+        <entry endPc="268437379" name="position9" stackId="5" startPc="268437110"/>
+        <entry endPc="268437379" name="width" stackId="3" startPc="268437110"/>
+        <entry arg="true" endPc="268437380" name="battery" stackId="2" startPc="268437098"/>
+        <entry arg="true" endPc="268437380" name="dc" stackId="1" startPc="268437098"/>
+        <entry arg="true" endPc="268437408" name="state" stackId="1" startPc="268437403"/>
+        <entry arg="true" endPc="268437413" name="state" stackId="1" startPc="268437408"/>
+        <entry endPc="268437521" name="dictionary" stackId="1" startPc="268437480"/>
+        <entry arg="true" endPc="268437592" name="dc" stackId="1" startPc="268437522"/>
+        <entry endPc="268437983" name="x" stackId="11" startPc="268437860"/>
+        <entry endPc="268437983" name="y" stackId="12" startPc="268437860"/>
+        <entry endPc="268437996" name="i" stackId="10" startPc="268437860"/>
+        <entry endPc="268437999" name="result" stackId="7" startPc="268437604"/>
+        <entry endPc="268437999" name="sin" stackId="9" startPc="268437604"/>
+        <entry endPc="268437999" name="cos" stackId="8" startPc="268437604"/>
+        <entry endPc="268437999" name="coords" stackId="6" startPc="268437604"/>
+        <entry arg="true" endPc="268438000" name="handLength" stackId="3" startPc="268437592"/>
+        <entry arg="true" endPc="268438000" name="tailLength" stackId="4" startPc="268437592"/>
+        <entry arg="true" endPc="268438000" name="width" stackId="5" startPc="268437592"/>
+        <entry arg="true" endPc="268438000" name="angle" stackId="2" startPc="268437592"/>
+        <entry arg="true" endPc="268438000" name="centerPoint" stackId="1" startPc="268437592"/>
+        <entry endPc="268439190" name="screenShape" stackId="7" startPc="268438012"/>
+        <entry endPc="268439190" name="hour_radius" stackId="9" startPc="268438012"/>
+        <entry endPc="268439190" name="alpha" stackId="15" startPc="268438012"/>
+        <entry endPc="268439190" name="maxRad" stackId="14" startPc="268438012"/>
+        <entry endPc="268439190" name="center_y" stackId="3" startPc="268438012"/>
+        <entry endPc="268439190" name="center_x" stackId="2" startPc="268438012"/>
+        <entry endPc="268439190" name="x" stackId="12" startPc="268438012"/>
+        <entry endPc="268439190" name="hand1" stackId="26" startPc="268438012"/>
+        <entry endPc="268439190" name="hand" stackId="25" startPc="268438012"/>
+        <entry endPc="268439190" name="clockTime" stackId="6" startPc="268438012"/>
+        <entry endPc="268439190" name="height" stackId="5" startPc="268438012"/>
+        <entry endPc="268439190" name="r7" stackId="24" startPc="268438012"/>
+        <entry endPc="268439190" name="alpha2" stackId="16" startPc="268438012"/>
+        <entry endPc="268439190" name="r6" stackId="23" startPc="268438012"/>
+        <entry endPc="268439190" name="n" stackId="13" startPc="268438012"/>
+        <entry endPc="268439190" name="width" stackId="4" startPc="268438012"/>
+        <entry endPc="268439190" name="r5" stackId="22" startPc="268438012"/>
+        <entry endPc="268439190" name="minute_radius" stackId="8" startPc="268438012"/>
+        <entry endPc="268439190" name="r4" stackId="21" startPc="268438012"/>
+        <entry endPc="268439190" name="r3" stackId="20" startPc="268438012"/>
+        <entry endPc="268439190" name="color" stackId="10" startPc="268438012"/>
+        <entry endPc="268439190" name="r2" stackId="19" startPc="268438012"/>
+        <entry endPc="268439190" name="r1" stackId="18" startPc="268438012"/>
+        <entry endPc="268439190" name="r0" stackId="17" startPc="268438012"/>
+        <entry endPc="268439190" name="deflec3" stackId="29" startPc="268438012"/>
+        <entry endPc="268439190" name="deflec2" stackId="28" startPc="268438012"/>
+        <entry endPc="268439190" name="deflec1" stackId="27" startPc="268438012"/>
+        <entry endPc="268439190" name="outlineColor" stackId="11" startPc="268438012"/>
+        <entry arg="true" endPc="268439191" name="dc" stackId="1" startPc="268438000"/>
+        <entry arg="true" endPc="268439257" name="j" stackId="1" startPc="268439191"/>
+        <entry arg="true" endPc="268439338" name="a" stackId="1" startPc="268439257"/>
+        <entry endPc="268440234" name="x" stackId="6" startPc="268439350"/>
+        <entry endPc="268440234" name="ds" stackId="7" startPc="268439350"/>
+        <entry endPc="268440234" name="Jrise" stackId="9" startPc="268439350"/>
+        <entry endPc="268440234" name="Jset" stackId="8" startPc="268439350"/>
+        <entry endPc="268440234" name="d" stackId="5" startPc="268439350"/>
+        <entry arg="true" endPc="268440235" name="lng" stackId="3" startPc="268439338"/>
+        <entry arg="true" endPc="268440235" name="what" stackId="4" startPc="268439338"/>
+        <entry arg="true" endPc="268440235" name="lat" stackId="2" startPc="268439338"/>
+        <entry arg="true" endPc="268440235" name="moment" stackId="1" startPc="268439338"/>
+        <entry endPc="268440328" name="calculation" stackId="5" startPc="268440247"/>
+        <entry endPc="268440328" name="info" stackId="6" startPc="268440247"/>
+        <entry arg="true" endPc="268440329" name="what" stackId="4" startPc="268440235"/>
+        <entry arg="true" endPc="268440329" name="lat" stackId="2" startPc="268440235"/>
+        <entry arg="true" endPc="268440329" name="moment" stackId="1" startPc="268440235"/>
+        <entry arg="true" endPc="268440329" name="lon" stackId="3" startPc="268440235"/>
+        <entry arg="true" endPc="268440469" name="dc" stackId="1" startPc="268440375"/>
+        <entry endPc="268441225" name="noon" stackId="14" startPc="268441059"/>
+        <entry endPc="268441859" name="gregorianInfo" stackId="15" startPc="268441787"/>
+        <entry endPc="268442051" name="moonAge" stackId="17" startPc="268441887"/>
+        <entry endPc="268442051" name="gregorianShort" stackId="16" startPc="268441887"/>
+        <entry endPc="268442124" name="steps" stackId="18" startPc="268442079"/>
+        <entry endPc="268442223" name="battery" stackId="19" startPc="268442152"/>
+        <entry endPc="268442240" name="currentZoneOffset" stackId="12" startPc="268440473"/>
+        <entry endPc="268442240" name="lon" stackId="4" startPc="268440473"/>
+        <entry endPc="268442240" name="now" stackId="5" startPc="268440473"/>
+        <entry endPc="268442240" name="sunset" stackId="8" startPc="268440473"/>
+        <entry endPc="268442240" name="clock" stackId="11" startPc="268440473"/>
+        <entry endPc="268442240" name="time" stackId="6" startPc="268440473"/>
+        <entry endPc="268442240" name="sunrise" stackId="7" startPc="268440473"/>
+        <entry endPc="268442240" name="loc" stackId="2" startPc="268440473"/>
+        <entry endPc="268442240" name="dusk" stackId="10" startPc="268440473"/>
+        <entry endPc="268442240" name="lat" stackId="3" startPc="268440473"/>
+        <entry endPc="268442240" name="dawn" stackId="9" startPc="268440473"/>
+        <entry endPc="268442240" name="utcTime" stackId="13" startPc="268440473"/>
+        <entry arg="true" endPc="268442241" name="dc" stackId="1" startPc="268440469"/>
+        <entry arg="true" endPc="268442332" name="dc" stackId="1" startPc="268442241"/>
+        <entry endPc="268443239" name="x2" stackId="11" startPc="268442449"/>
+        <entry endPc="268443239" name="sin" stackId="8" startPc="268442449"/>
+        <entry endPc="268443239" name="x1" stackId="9" startPc="268442449"/>
+        <entry endPc="268443239" name="y2" stackId="12" startPc="268442449"/>
+        <entry endPc="268443239" name="y1" stackId="10" startPc="268442449"/>
+        <entry endPc="268443239" name="cos" stackId="7" startPc="268442449"/>
+        <entry endPc="268443239" name="iedge" stackId="6" startPc="268442449"/>
+        <entry endPc="268443252" name="i" stackId="4" startPc="268442449"/>
+        <entry endPc="268443252" name="angle" stackId="5" startPc="268442449"/>
+        <entry endPc="268443252" name="oedge" stackId="2" startPc="268442336"/>
+        <entry endPc="268443252" name="radians" stackId="3" startPc="268442336"/>
+        <entry arg="true" endPc="268443253" name="dc" stackId="1" startPc="268442332"/>
+        <entry endPc="268443406" name="sin" stackId="8" startPc="268443257"/>
+        <entry endPc="268443406" name="length" stackId="6" startPc="268443257"/>
+        <entry endPc="268443406" name="cos" stackId="7" startPc="268443257"/>
+        <entry endPc="268443406" name="pointY" stackId="10" startPc="268443257"/>
+        <entry endPc="268443406" name="pointX" stackId="9" startPc="268443257"/>
+        <entry arg="true" endPc="268443407" name="dc" stackId="1" startPc="268443253"/>
+        <entry arg="true" endPc="268443407" name="color" stackId="3" startPc="268443253"/>
+        <entry arg="true" endPc="268443407" name="hand_inset" stackId="5" startPc="268443253"/>
+        <entry arg="true" endPc="268443407" name="width" stackId="4" startPc="268443253"/>
+        <entry arg="true" endPc="268443407" name="angle" stackId="2" startPc="268443253"/>
+        <entry endPc="268443519" name="minutes" stackId="4" startPc="268443411"/>
+        <entry endPc="268443519" name="clock_offset" stackId="2" startPc="268443411"/>
+        <entry endPc="268443519" name="time" stackId="3" startPc="268443411"/>
+        <entry arg="true" endPc="268443520" name="moment" stackId="1" startPc="268443407"/>
+        <entry endPc="268443628" name="minutes" stackId="3" startPc="268443524"/>
+        <entry endPc="268443628" name="time" stackId="2" startPc="268443524"/>
+        <entry arg="true" endPc="268443629" name="moment" stackId="1" startPc="268443520"/>
+        <entry endPc="268443753" name="minutes" stackId="3" startPc="268443633"/>
+        <entry endPc="268443753" name="alpha" stackId="4" startPc="268443633"/>
+        <entry endPc="268443753" name="time" stackId="2" startPc="268443633"/>
+        <entry arg="true" endPc="268443754" name="moment" stackId="1" startPc="268443629"/>
+        <entry endPc="268443924" name="r" stackId="4" startPc="268443766"/>
+        <entry arg="true" endPc="268443925" name="day" stackId="1" startPc="268443754"/>
+        <entry arg="true" endPc="268443925" name="year" stackId="3" startPc="268443754"/>
+        <entry arg="true" endPc="268443925" name="month" stackId="2" startPc="268443754"/>
+        <entry endPc="268444267" name="jd" stackId="10" startPc="268443937"/>
+        <entry endPc="268444267" name="age" stackId="4" startPc="268443937"/>
+        <entry endPc="268444267" name="k3" stackId="9" startPc="268443937"/>
+        <entry endPc="268444267" name="ip" stackId="11" startPc="268443937"/>
+        <entry endPc="268444267" name="k2" stackId="8" startPc="268443937"/>
+        <entry endPc="268444267" name="mm" stackId="6" startPc="268443937"/>
+        <entry endPc="268444267" name="k1" stackId="7" startPc="268443937"/>
+        <entry endPc="268444267" name="yy" stackId="5" startPc="268443937"/>
+        <entry arg="true" endPc="268444268" name="day" stackId="1" startPc="268443925"/>
+        <entry arg="true" endPc="268444268" name="year" stackId="3" startPc="268443925"/>
+        <entry arg="true" endPc="268444268" name="month" stackId="2" startPc="268443925"/>
+        <entry arg="true" endPc="268444330" name="v" stackId="1" startPc="268444268"/>
+        <entry endPc="268444556" name="rez_cmp_local_text_TimeLabel" stackId="3" startPc="268444342"/>
+        <entry endPc="268444556" name="rez_cmp_local_custom_drawable_12462476362130655351" stackId="2" startPc="268444342"/>
+        <entry arg="true" endPc="268444557" name="dc" stackId="1" startPc="268444330"/>
+    </localVars>
+    <annotations>
+        <annotationEntry annotation="initialized" class="Drawables" module="globals/Rez" symbol="LauncherIcon"/>
+        <annotationEntry annotation="initialized" class="Fonts" module="globals/Rez" symbol="moon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowNoonLine"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand24Width"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Latitude"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorRed"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MinuteWidth"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand12Color"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand12Length"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowNightLines"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowMoon"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ForegroundColor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorWhite"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="WidthLong"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowMinuteHand"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN12"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN11"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP10"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP11"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP12"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowSunLines"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowDualTime1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Longitude"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowDualTime2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN9"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN8"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand24Show"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN1"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN10"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN5"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN4"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN7"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrN6"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="MinuteColor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand12Show"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DualTime2Offset"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand24Color"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowDate"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorYellow"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand24Length"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AppName"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NightLinesColor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Hand12Width"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorPink"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowSteps"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorGreen"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorBlack"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="AutomaticPosition"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="DualTime1Offset"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="Nbr0"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="SunLinesColor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP3"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP2"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP5"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP4"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP7"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="WidthMedium"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP6"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ShowBattery"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="ColorLightBlue"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP9"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="BackgroundColor"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="NbrP8"/>
+        <annotationEntry annotation="initialized" class="Strings" module="globals/Rez" symbol="WidthShort"/>
+    </annotations>
+    <dataEntryOffsetMappings>
+        <dataEntry label="globals" offset="119" parentId="" symbolId="globals" type="module"/>
+        <dataEntry label="globals/Sun" offset="366" parentId="globals" symbolId="Sun" type="module"/>
+        <dataEntry label="globals/Background" offset="581" parentId="globals" symbolId="Background" type="class"/>
+        <dataEntry label="globals/AstroTwentyFourApp" offset="636" parentId="globals" symbolId="AstroTwentyFourApp" type="class"/>
+        <dataEntry label="globals/Rez" offset="715" parentId="globals" symbolId="Rez" type="module"/>
+        <dataEntry label="globals/Rez/Drawables" offset="794" parentId="Rez" symbolId="Drawables" type="module"/>
+        <dataEntry label="globals/Rez/Menus" offset="833" parentId="Rez" symbolId="Menus" type="module"/>
+        <dataEntry label="globals/Rez/Fonts" offset="864" parentId="Rez" symbolId="Fonts" type="module"/>
+        <dataEntry label="globals/Rez/Layouts" offset="903" parentId="Rez" symbolId="Layouts" type="module"/>
+        <dataEntry label="globals/Rez/JsonData" offset="942" parentId="Rez" symbolId="JsonData" type="module"/>
+        <dataEntry label="globals/Rez/Strings" offset="973" parentId="Rez" symbolId="Strings" type="module"/>
+        <dataEntry label="globals/Hands" offset="1532" parentId="globals" symbolId="Hands" type="module"/>
+        <dataEntry label="globals/AstroTwentyFourView" offset="1579" parentId="globals" symbolId="AstroTwentyFourView" type="class"/>
+        <dataEntry label="globals/Moon" offset="1746" parentId="globals" symbolId="Moon" type="module"/>
+        <dataEntry label="globals/Fields" offset="1801" parentId="globals" symbolId="Fields" type="module"/>
+    </dataEntryOffsetMappings>
+    <functions>
+        <functionEntry accessMode="public" name="drawDay" parent="Fields">
+            <param id="dc"/>
+            <param id="gregorianInfo"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawMoonIcon" parent="Fields">
+            <param id="dc"/>
+            <param id="moonage"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawMoonAge" parent="Fields">
+            <param id="dc"/>
+            <param id="moonage"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawSteps" parent="Fields">
+            <param id="dc"/>
+            <param id="steps"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawBattery" parent="Fields">
+            <param id="dc"/>
+            <param id="battery"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="AstroTwentyFourApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStart" parent="AstroTwentyFourApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onStop" parent="AstroTwentyFourApp">
+            <param id="state"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getInitialView" parent="AstroTwentyFourApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onSettingsChanged" parent="AstroTwentyFourApp">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="Background">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="draw" parent="Background">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="generateHandCoordinates" parent="Hands">
+            <param id="centerPoint"/>
+            <param id="angle"/>
+            <param id="handLength"/>
+            <param id="tailLength"/>
+            <param id="width"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="drawHands" parent="Hands">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="fromJulian" parent="Sun">
+            <param id="j"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="round" parent="Sun">
+            <param id="a"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="calculate" parent="Sun">
+            <param id="moment"/>
+            <param id="lat"/>
+            <param id="lng"/>
+            <param id="what"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getsuntime" parent="Sun">
+            <param id="moment"/>
+            <param id="lat"/>
+            <param id="lon"/>
+            <param id="what"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="initialize" parent="AstroTwentyFourView">
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onLayout" parent="AstroTwentyFourView">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="onUpdate" parent="AstroTwentyFourView">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Update the view<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" name="clear" parent="AstroTwentyFourView">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Clear the screen<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" name="drawDial" parent="AstroTwentyFourView">
+            <param id="dc"/>
+            <documentation><![CDATA[<div class="description"> Draw the watch dial<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" name="drawHand" parent="AstroTwentyFourView">
+            <param id="dc"/>
+            <param id="angle"/>
+            <param id="color"/>
+            <param id="width"/>
+            <param id="hand_inset"/>
+            <documentation><![CDATA[<div class="description"> Draw the hand<br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" name="timeAngle" parent="AstroTwentyFourView">
+            <param id="moment"/>
+            <documentation><![CDATA[<div class="description"> Angle for the current time.<br/> <div class="returns">Returns s time as an angle</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="protected" name="timeAngle12" parent="AstroTwentyFourView">
+            <param id="moment"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="protected" name="minuteAngle" parent="AstroTwentyFourView">
+            <param id="moment"/>
+            <documentation><![CDATA[<div class="description"> Angle for the current minute.<br/> <div class="returns">Returns s time as an angle</div><br/></div>]]></documentation>
+        </functionEntry>
+        <functionEntry accessMode="public" name="calcmoonphase" parent="Moon">
+            <param id="day"/>
+            <param id="month"/>
+            <param id="year"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="getmoonage" parent="Moon">
+            <param id="day"/>
+            <param id="month"/>
+            <param id="year"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="normalize" parent="Moon">
+            <param id="v"/>
+            <documentation/>
+        </functionEntry>
+        <functionEntry accessMode="public" name="WatchFace" parent="Layouts">
+            <param id="dc"/>
+            <documentation/>
+        </functionEntry>
+    </functions>
+</debugInfo>
