@@ -5,191 +5,173 @@ using Toybox.ActivityMonitor as ActMonitor;
 using Toybox.Activity as Act;
 using Toybox.Application as App;
 using Toybox.Time as Time;
+using Hand;
+using Dial;
 
 enum {
   LAT,
   LON
 }
 
-class AstroTwentyFourView extends Ui.WatchFace {
+// define watch geometry:
+var screenCenterPoint;
+var hourHand_r1; 
+var hourHand_r2; 
+var hourHand_t; 
+var minuteHand_r1; 
+var minuteHand_r2; 
+var minuteHand_t; 
+var hour24Hand_r1; 
+var hour24Hand_r2; 
+var hour24Hand_t; 
+var hourMarker_ri;
+var hourOddMarker_ri;
+var hourMarker_ro;
+var hourMarker_t;
+var minuteMarker_ri;
+var minuteMarker_ro;
+var minuteMarker_t;
 
-    hidden var radius, centerX, centerY, app;
+var radius, centerX, centerY;
+var loc, lat, lon;
+var color_list;
+var length_list;
+var width_list;
+
+const MINUTES_PER_HOUR = 60.0;
+const MINUTES_PER_DAY = 1440.0;
+
+class AstroTwentyFourView extends Ui.WatchFace {
 
     function initialize() {
         WatchFace.initialize();
-        app = App.getApp();
     }
 
     function onLayout(dc) {
         centerX = dc.getWidth() / 2;
         centerY = dc.getHeight() / 2;
         radius = dc.getHeight() / 2;
+
+        length_list=[26, 32, 44];
+        width_list=[2, 3, 5, 6, 7];
+
+        //compute geometry
+        hourHand_r1 = Math.round(24/50.0*dc.getWidth()/2);
+        hourHand_r2 = Math.round(12/50.0*dc.getWidth()/2);
+        hourHand_t = Math.round(5.3/50.0*dc.getWidth()/2);
+        minuteHand_r1 = Math.round(44/50.0*dc.getWidth()/2);
+        minuteHand_r2 = Math.round(12/50.0*dc.getWidth()/2);
+        minuteHand_t = Math.round(4/50.0*dc.getWidth()/2);
+        hour24Hand_r1 = Math.round(44/50.0*dc.getWidth()/2);
+        hour24Hand_r2 = Math.round(12/50.0*dc.getWidth()/2);
+        hour24Hand_t = Math.round(2/50.0*dc.getWidth()/2);
+
+        hourMarker_ri = Math.round(37/50.0*dc.getWidth()/2);
+        hourOddMarker_ri = Math.round(42/50.0*dc.getWidth()/2);
+        hourMarker_ro = Math.round(49/50.0*dc.getWidth()/2);
+        hourMarker_t = Math.round(2.5/50.0*dc.getWidth()/2);
+        minuteMarker_ri = Math.round(45/50.0*dc.getWidth()/2);
+        minuteMarker_ro = Math.round(49/50.0*dc.getWidth()/2);
+        minuteMarker_t = Math.round(1.2/50.0*dc.getWidth()/2);
+
+        color_list=[Gfx.COLOR_BLACK, Gfx.COLOR_WHITE,
+                    Gfx.COLOR_DK_BLUE, Gfx.COLOR_BLUE,
+                    Gfx.COLOR_GREEN, Gfx.COLOR_RED,
+                    Gfx.COLOR_YELLOW];
+        
     }
 
     //! Update the view
     function onUpdate(dc) {
         clear(dc);
-        radius = dc.getHeight() / 2;
-        var loc = Act.getActivityInfo().currentLocation;
-        var lat = app.getProperty("Latitude") * Math.PI / 180.0;
-        var lon = app.getProperty("Longitude") * Math.PI / 180.0;
+        var lat_r = 0.0;
+        var lon_r = 0.0;
         var now = new Time.Moment(Time.now().value());
 
-        if (app.getProperty("AutomaticPosition")) {
+        lat = App.getApp().getProperty("Latitude").toFloat();
+        lon = App.getApp().getProperty("Longitude").toFloat();
+
+        if (lat != null) {
+            lat_r = lat * Math.PI / 180.0;
+        }
+        if ( lon != null) {
+            lon_r = lon * Math.PI / 180.0;
+        }
+
+        if (App.getApp().getProperty("AutomaticPosition")) {
+            loc = Act.getActivityInfo().currentLocation;
             if(loc != null) {
-                lat = loc.toDegrees()[0] * Math.PI / 180.0;
-                lon = loc.toDegrees()[1] * Math.PI / 180.0;
+                lat = loc.toDegrees()[0];
+                lon = loc.toDegrees()[1];
+                lat_r = lat * Math.PI / 180.0;
+                lon_r = lon * Math.PI / 180.0;
             }
         }
+        
+        //drawDial(dc);
+        Dial.drawHashMarks(dc);
 
         //System.println(clock.timeZoneOffset);
         var time = Time.Gregorian.info(now , Time.FORMAT_SHORT);
-        var sunrise = Sun.getsuntime(now, lat, lon, SUNRISE);
-        var sunset = Sun.getsuntime(now, lat, lon, SUNSET);
-        var dawn = Sun.getsuntime(now, lat, lon, DAWN);
-        var dusk = Sun.getsuntime(now, lat, lon, DUSK);
+        var sunrise = Sun.getsuntime(now, lat_r, lon_r, SUNRISE);
+        var sunset = Sun.getsuntime(now, lat_r, lon_r, SUNSET);
+        var dawn = Sun.getsuntime(now, lat_r, lon_r, DAWN);
+        var dusk = Sun.getsuntime(now, lat_r, lon_r, DUSK);
+        var gregorianShort = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
+        var moonAge = Moon.getmoonage(gregorianShort.day.toNumber(), gregorianShort.month.toNumber(), gregorianShort.year.toNumber());
+        
         // Draw sun events
-        if (app.getProperty("ShowSunLines")) {
-            drawHand(dc, timeAngle(sunrise), app.getProperty("SunLinesColor"), 2, 0);
-            drawHand(dc, timeAngle(sunset), app.getProperty("SunLinesColor"), 2, 0);
-            if (app.getProperty("ShowNoonLine")) {
-                var noon = Sun.getsuntime(now, lat, lon, NOON);
-                drawHand(dc, timeAngle(noon), app.getProperty("SunLinesColor"), 2, 0);
-                drawHand(dc, timeAngle(noon)+Math.PI, app.getProperty("SunLinesColor"), 2, 0);
+        if (App.getApp().getProperty("ShowSunLines")) {
+            drawHand(dc, timeAngle(sunrise), color_list[App.getApp().getProperty("SunLinesColor")], 2, 0);
+            drawHand(dc, timeAngle(sunset), color_list[App.getApp().getProperty("SunLinesColor")], 2, 0);
+            if (App.getApp().getProperty("ShowNoonLine")) {
+                var noon = Sun.getsuntime(now, lat_r, lon_r, NOON);
+                drawHand(dc, timeAngle(noon), color_list[App.getApp().getProperty("SunLinesColor")], 2, 0);
+                drawHand(dc, timeAngle(noon)+Math.PI, color_list[App.getApp().getProperty("SunLinesColor")], 2, 0);
         }   }
-        if (app.getProperty("ShowNightLines")) {
-            drawHand(dc, timeAngle(dawn), app.getProperty("NightLinesColor"), 2, 0);
-            drawHand(dc, timeAngle(dusk), app.getProperty("NightLinesColor"), 2, 0);
+        if (App.getApp().getProperty("ShowNightLines")) {
+            drawHand(dc, timeAngle(dawn), color_list[App.getApp().getProperty("SunLinesColor")], 2, 0);
+            drawHand(dc, timeAngle(dusk), color_list[App.getApp().getProperty("SunLinesColor")], 2, 0);
         }
         
-        drawDial(dc);
+
+        if (App.getApp().getProperty("ShowMoon")) {
+            Fields.drawMoonIcon(dc, moonAge);
+        }
         
         // Draw hands
-        if (app.getProperty("Hand24Show")) {
-            drawHand(dc, timeAngle(now), app.getProperty("Hand24Color"), app.getProperty("Hand24Width"), radius*app.getProperty("Hand24Length")/10);
-        }
-        if (app.getProperty("ShowMinuteHand")) {
-            drawHand(dc, minuteAngle(now), app.getProperty("MinuteColor"), app.getProperty("MinuteWidth"), radius*0.1);
-        } 
-        if (app.getProperty("Hand12Show")) {
-            drawHand(dc, timeAngle12(now), app.getProperty("Hand12Color"), app.getProperty("Hand12Width"), radius*app.getProperty("Hand12Length")/10);
-        }
 
+        Hand.drawHands(dc);
+        
         // Show fields
-        if (app.getProperty("ShowDate")) {
+        if (App.getApp().getProperty("ShowDate")) {
             var gregorianInfo = Time.Gregorian.info(Time.now(), Time.FORMAT_LONG);
             Fields.drawDay(dc, gregorianInfo);
         }
-        if (app.getProperty("ShowMoon")) {
-            var gregorianShort = Time.Gregorian.info(Time.now(), Time.FORMAT_SHORT);
-            var moonAge = Moon.getmoonage(gregorianShort.day.toNumber(), gregorianShort.month.toNumber(), gregorianShort.year.toNumber());
-            Fields.drawMoonIcon(dc, moonAge);
+        if (App.getApp().getProperty("ShowMoon")) {
             Fields.drawMoonAge(dc, moonAge);
         }
-        if (app.getProperty("ShowSteps")) {
+        if (App.getApp().getProperty("ShowSteps")) {
             var steps = ActMonitor.getInfo().steps;
             Fields.drawSteps(dc, steps);
         }
-        if (app.getProperty("ShowBattery")) {
+        if (App.getApp().getProperty("ShowBattery")) {
             var battery = (System.getSystemStats().battery + 0.5).toNumber().toString();
             Fields.drawBattery(dc, battery);
         }
-
-
-        var tickest = app.getProperty("Hand12Width");
-        if (tickest < app.getProperty("Hand24Width")) { tickest = app.getProperty("Hand24Width"); }
-        if (tickest < app.getProperty("MinuteWidth")) { tickest = app.getProperty("MinuteWidth"); }
-        dc.setColor(app.getProperty("BackgroundColor"), app.getProperty("ForegroundColor"));
-        dc.setPenWidth(1);
-        dc.fillCircle(centerX, centerY, tickest);
-        dc.setColor(app.getProperty("ForegroundColor"), app.getProperty("ForegroundColor"));
-        dc.setPenWidth(2);
-        dc.drawCircle(centerX, centerY, tickest);
+        
 
         return(true);
 
-        //drawHand(dc, timeAngle(utcTime), app.getProperty("Hand24Color"), 3, 0);
-        /*if (app.getProperty("ShowDualTime1")) {
-            var dualTime1Offset = new Time.Duration(app.getProperty("DualTime1Offset").toNumber() * 3600 );
-            drawHand(dc, timeAngle(utcTime.add(dualTime1Offset)), app.getProperty("HourColor"), 3, 0);
-        }
-        if (app.getProperty("ShowDualTime2")) {
-            var dualTime2Offset = new Time.Duration(app.getProperty("DualTime2Offset").toNumber() * 3600);
-            drawHand(dc, timeAngle(utcTime.add(dualTime2Offset)), app.getProperty("HourColor"), 3, 0);
-        }*/
+
     }
 
     //! Clear the screen
     hidden function clear(dc) {
-        dc.setColor(Application.getApp().getProperty("BackgroundColor"), Application.getApp().getProperty("BackgroundColor"));
+        dc.setColor(color_list[App.getApp().getProperty("BackgroundColor")], color_list[App.getApp().getProperty("BackgroundColor")]);
         dc.clear();
     }
 
-    //! Draw the watch dial
-    hidden function drawDial(dc) {
-        var oedge = radius + 1;
-        var radians = Math.PI / 48.0; // * 2.0 / 96.0
-        centerX = dc.getWidth() / 2;
-        centerY = dc.getHeight() / 2;
-
-        for (var i = 0, angle = 0; i < 13; i += 1) {
-            var iedge, cos, sin, x1, y1, x2, y2;
-            dc.setPenWidth(1);
-            iedge = oedge - 2;
-            dc.setColor(Application.getApp().getProperty("ForegroundColor"), Application.getApp().getProperty("BackgroundColor"));
-
-            if (i == 0) {
-                dc.setPenWidth(6);
-                iedge = oedge - 25;
-            } else if (i == 4 or i == 12) {
-                dc.setPenWidth(3);
-                iedge = oedge - 10;
-            } else if (i == 8) {
-                dc.setPenWidth(3);
-                iedge = oedge - 20;
-            } else {
-                dc.setPenWidth(2);
-                iedge = oedge - 5;
-            }
-
-            x1 = Math.cos(angle) * iedge;
-            y1 = Math.sin(angle) * iedge;
-            x2 = Math.cos(angle) * oedge;
-            y2 = Math.sin(angle) * oedge;
-
-            dc.drawLine(centerX + y1, centerY - x1, centerX + y2, centerY - x2); // 12 clockwise
-            dc.drawLine(centerX + x1, centerY + y1, centerX + x2, centerY + y2); // 3 clockwise
-            dc.drawLine(centerX - y1, centerY + x1, centerX - y2, centerY + x2); // 6 clockwise
-            dc.drawLine(centerX - x1, centerY - y1, centerX - x2, centerY - y2); // 9 clockwise
-            dc.drawLine(centerX - y1, centerY - x1, centerX - y2, centerY - x2); // 12 anticlock
-            dc.drawLine(centerX - x1, centerY + y1, centerX - x2, centerY + y2); // 9 anticlock
-            dc.drawLine(centerX + y1, centerY + x1, centerX + y2, centerY + x2); // 6 anticlock
-            dc.drawLine(centerX + x1, centerY - y1, centerX + x2, centerY - y2); // 3 anticlock
-
-            angle += radians;
-        }
-    }
-
-    //! Draw the hand
-    hidden function drawHand(dc, angle, color, width, hand_inset) {
-        var length = radius - hand_inset;
-        var cos = Math.cos(angle);
-        var sin = Math.sin(angle);
-        var pointX = centerX + (cos * length);
-        var pointY = centerY + (sin * length);
-
-        dc.setColor(color, color);
-        dc.setPenWidth(width);
-        dc.drawLine(
-            centerX, centerY,
-            pointX, pointY
-        );
-    }
-
-    hidden const MINUTES_PER_HOUR = 60.0;
-    hidden const MINUTES_PER_DAY = 1440.0;
-
-    hidden const CLOCK_OFFSET = 360.0;
 
     //! Angle for the current time.
     //! @returns time as an angle
@@ -203,28 +185,20 @@ class AstroTwentyFourView extends Ui.WatchFace {
         // Convert to radians
         return ((minutes + clock_offset) / MINUTES_PER_DAY) * Math.PI * 2.0;
     }
+            //! Draw the hand
+    hidden function drawHand(dc, angle, color, width, hand_inset) {
+        var length = radius - hand_inset;
+        var cos = Math.cos(angle);
+        var sin = Math.sin(angle);
+        var pointX = centerX + (cos * length);
+        var pointY = centerY + (sin * length);
 
-    hidden function timeAngle12(moment) {
-
-        var time = Time.Gregorian.info(moment , Time.FORMAT_SHORT);
-
-        var minutes = time.min + (time.hour * MINUTES_PER_HOUR);
-
-        // Convert to radians
-        return ((minutes - 180) / MINUTES_PER_DAY) * Math.PI * 4.0;
-    }
-
-    //! Angle for the current minute.
-    //! @returns time as an angle
-    hidden function minuteAngle(moment) {
-        var time = Time.Gregorian.info(moment , Time.FORMAT_SHORT);
-        var minutes = time.min*24;
-        var alpha = Math.PI/30.0*minutes;
-
-        // Convert to radians
-        //return ((minutes) / MINUTES_PER_DAY) * Math.PI * 2.0;
-        return ((minutes - 360) / MINUTES_PER_DAY) * Math.PI * 2.0;
-        return alpha;
+        dc.setColor(color, color);
+        dc.setPenWidth(width);
+        dc.drawLine(
+            centerX, centerY,
+            pointX, pointY
+        );
     }
 
 }

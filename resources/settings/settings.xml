@@ -2,25 +2,25 @@
 
     <setting propertyKey="@Properties.BackgroundColor" title="@Strings.BackgroundColor">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0">@Strings.ColorBlack</listEntry>
+            <listEntry value="1">@Strings.ColorWhite</listEntry>
+            <listEntry value="2">@Strings.ColorBlue</listEntry>
+            <listEntry value="3">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="4">@Strings.ColorGreen</listEntry>
+            <listEntry value="5">@Strings.ColorRed</listEntry>
+            <listEntry value="6">@Strings.ColorYellow</listEntry>
         </settingConfig>
     </setting>
 
     <setting propertyKey="@Properties.ForegroundColor" title="@Strings.ForegroundColor">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0">@Strings.ColorBlack</listEntry>
+            <listEntry value="1">@Strings.ColorWhite</listEntry>
+            <listEntry value="2">@Strings.ColorBlue</listEntry>
+            <listEntry value="3">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="4">@Strings.ColorGreen</listEntry>
+            <listEntry value="5">@Strings.ColorRed</listEntry>
+            <listEntry value="6">@Strings.ColorYellow</listEntry>
         </settingConfig>
     </setting>
 
@@ -31,28 +31,15 @@
 
     <setting propertyKey="@Properties.Hand12Color" title="@Strings.Hand12Color">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0">@Strings.ColorBlack</listEntry>
+            <listEntry value="1">@Strings.ColorWhite</listEntry>
+            <listEntry value="2">@Strings.ColorBlue</listEntry>
+            <listEntry value="3">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="4">@Strings.ColorGreen</listEntry>
+            <listEntry value="5">@Strings.ColorRed</listEntry>
+            <listEntry value="6">@Strings.ColorYellow</listEntry>
         </settingConfig>
     </setting>
-
-    <setting propertyKey="@Properties.Hand12Width" title="@Strings.Hand12Width">
-        <settingConfig type="numeric" min="1" max="12" />
-    </setting>
-
-    <setting propertyKey="@Properties.Hand12Length" title="@Strings.Hand12Length">
-        <settingConfig type="list">
-            <listEntry value="1">@Strings.WidthLong</listEntry>
-            <listEntry value="4">@Strings.WidthMedium</listEntry>
-            <listEntry value="5">@Strings.WidthShort</listEntry>
-        </settingConfig>
-    </setting>
-
 
     <setting propertyKey="@Properties.Hand24Show" title="@Strings.Hand24Show">
         <settingConfig type="boolean" />
@@ -60,26 +47,18 @@
 
     <setting propertyKey="@Properties.Hand24Color" title="@Strings.Hand24Color">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0">@Strings.ColorBlack</listEntry>
+            <listEntry value="1">@Strings.ColorWhite</listEntry>
+            <listEntry value="2">@Strings.ColorBlue</listEntry>
+            <listEntry value="3">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="4">@Strings.ColorGreen</listEntry>
+            <listEntry value="5">@Strings.ColorRed</listEntry>
+            <listEntry value="6">@Strings.ColorYellow</listEntry>
         </settingConfig>
-    </setting>
-    
-    <setting propertyKey="@Properties.Hand24Width" title="@Strings.Hand24Width">
-        <settingConfig type="numeric" min="1" max="12" />
     </setting>
 
-    <setting propertyKey="@Properties.Hand24Length" title="@Strings.Hand24Length">
-        <settingConfig type="list">
-            <listEntry value="1">@Strings.WidthLong</listEntry>
-            <listEntry value="4">@Strings.WidthMedium</listEntry>
-            <listEntry value="5">@Strings.WidthShort</listEntry>
-        </settingConfig>
+    <setting propertyKey="@Properties.Hand24Needle" title="@Strings.Hand24Needle">
+        <settingConfig type="boolean" />
     </setting>
 
     <setting propertyKey="@Properties.ShowMinuteHand" title="@Strings.ShowMinuteHand">
@@ -88,22 +67,73 @@
 
     <setting propertyKey="@Properties.MinuteColor" title="@Strings.MinuteColor">
         <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
+            <listEntry value="0">@Strings.ColorBlack</listEntry>
+            <listEntry value="1">@Strings.ColorWhite</listEntry>
+            <listEntry value="2">@Strings.ColorBlue</listEntry>
+            <listEntry value="3">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="4">@Strings.ColorGreen</listEntry>
+            <listEntry value="5">@Strings.ColorRed</listEntry>
+            <listEntry value="6">@Strings.ColorYellow</listEntry>
         </settingConfig>
     </setting>
 
-    <setting propertyKey="@Properties.MinuteWidth" title="@Strings.MinuteWidth">
-        <settingConfig type="numeric" min="1" max="12" />
+    <setting propertyKey="@Properties.CustomHandSize" title="@Strings.CustomHandSize">
+        <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.Hand12Length" title="@Strings.Hand12Length">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Short</listEntry>
+            <listEntry value="1">@Strings.Medium</listEntry>
+            <listEntry value="2">@Strings.Long</listEntry>
+        </settingConfig>
+    </setting>
 
+    <setting propertyKey="@Properties.Hand12Width" title="@Strings.Hand12Width">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Thinnest</listEntry>
+            <listEntry value="1">@Strings.Thin</listEntry>
+            <listEntry value="2">@Strings.Medium</listEntry>
+            <listEntry value="3">@Strings.Thick</listEntry>
+            <listEntry value="4">@Strings.Thickest</listEntry>
+        </settingConfig>
+    </setting>
 
+    <setting propertyKey="@Properties.Hand24Length" title="@Strings.Hand24Length">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Short</listEntry>
+            <listEntry value="1">@Strings.Medium</listEntry>
+            <listEntry value="2">@Strings.Long</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.Hand24Width" title="@Strings.Hand24Width">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Thinnest</listEntry>
+            <listEntry value="1">@Strings.Thin</listEntry>
+            <listEntry value="2">@Strings.Medium</listEntry>
+            <listEntry value="3">@Strings.Thick</listEntry>
+            <listEntry value="4">@Strings.Thickest</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.HandMinuteLength" title="@Strings.HandMinuteLength">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Short</listEntry>
+            <listEntry value="1">@Strings.Medium</listEntry>
+            <listEntry value="2">@Strings.Long</listEntry>
+        </settingConfig>
+    </setting>
+
+    <setting propertyKey="@Properties.HandMinuteWidth" title="@Strings.HandMinuteWidth">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.Thinnest</listEntry>
+            <listEntry value="1">@Strings.Thin</listEntry>
+            <listEntry value="2">@Strings.Medium</listEntry>
+            <listEntry value="3">@Strings.Thick</listEntry>
+            <listEntry value="4">@Strings.Thickest</listEntry>
+        </settingConfig>
+    </setting>
 
     <setting propertyKey="@Properties.ShowDate" title="@Strings.ShowDate">
         <settingConfig type="boolean" />
@@ -133,41 +163,30 @@
         <settingConfig type="boolean" />
     </setting>
 
+    <setting propertyKey="@Properties.SunLinesColor" title="@Strings.SunLinesColor">
+        <settingConfig type="list">
+            <listEntry value="0">@Strings.ColorBlack</listEntry>
+            <listEntry value="1">@Strings.ColorWhite</listEntry>
+            <listEntry value="2">@Strings.ColorBlue</listEntry>
+            <listEntry value="3">@Strings.ColorLightBlue</listEntry>
+            <listEntry value="4">@Strings.ColorGreen</listEntry>
+            <listEntry value="5">@Strings.ColorRed</listEntry>
+            <listEntry value="6">@Strings.ColorYellow</listEntry>
+        </settingConfig>
+    </setting>
+
     <setting propertyKey="@Properties.AutomaticPosition" title="@Strings.AutomaticPosition">
         <settingConfig type="boolean" />
     </setting>
 
     <setting propertyKey="@Properties.Latitude" title="@Strings.Latitude">
-        <settingConfig type="numeric" min="-90" max="90" />
+        <settingConfig type="numeric" />
     </setting>
 
     <setting propertyKey="@Properties.Longitude" title="@Strings.Longitude">
-        <settingConfig type="numeric" min="-180" max="180" />
+        <settingConfig type="numeric" />
     </setting>
 
 
-    <setting propertyKey="@Properties.SunLinesColor" title="@Strings.SunLinesColor">
-        <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-        </settingConfig>
-    </setting>
-
-    <setting propertyKey="@Properties.NightLinesColor" title="@Strings.NightLinesColor">
-        <settingConfig type="list">
-            <listEntry value="0x000000">@Strings.ColorBlack</listEntry>
-            <listEntry value="0x0000FF">@Strings.ColorBlue</listEntry>
-            <listEntry value="0x00FFFF">@Strings.ColorLightBlue</listEntry>
-            <listEntry value="0x00FF00">@Strings.ColorGreen</listEntry>
-            <listEntry value="0xFF0000">@Strings.ColorRed</listEntry>
-            <listEntry value="0xFFFF00">@Strings.ColorYellow</listEntry>
-            <listEntry value="0xFFFFFF">@Strings.ColorWhite</listEntry>
-        </settingConfig>
-    </setting>
 
 </settings>

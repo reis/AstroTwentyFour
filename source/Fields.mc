@@ -11,13 +11,13 @@ module Fields {
         var width = dc.getWidth();
         var height = dc.getHeight();
 
-        var position12 = Hands.generateHandCoordinates([width/2, height/2], Math.PI/6*(12), (width/3.3), 0, 1);
+        var position12 = Hands.generateHandCoordinates([width/2, height/2], Math.PI/6*(12), (width/4.0), 0, 1);
         //var position3 = Hands.generateHandCoordinates([width/2, height/2], Math.PI/6*(3), (width/3.3), 0, 1);
         //var position4 = Hands.generateHandCoordinates([width/2, height/2], Math.PI/6*(4), (width/3.3), 0, 1);
         
         //[ info.day_of_week, info.day, info.month, steps, batt ]);
 
-        dc.setColor(Application.getApp().getProperty("ForegroundColor"), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(color_list[Application.getApp().getProperty("ForegroundColor")], Graphics.COLOR_TRANSPARENT);
         //dc.drawText(position3[1][0], position3[1][1], Graphics.FONT_TINY, gregorianInfo.day,
         //            Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
         dc.drawText(position12[1][0], position12[1][1], Graphics.FONT_TINY, gregorianInfo.day_of_week.substring(0,3) + " " + gregorianInfo.day + " " + gregorianInfo.month.substring(0,3),
@@ -66,7 +66,7 @@ module Fields {
         };
 
         var font = Ui.loadResource( Rez.Fonts.moon );
-        dc.setColor(Application.getApp().getProperty("ForegroundColor"), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(color_list[Application.getApp().getProperty("ForegroundColor")], Graphics.COLOR_TRANSPARENT);
         dc.drawText(position3[1][0], position3[1][1], font, moon_char[moonage], 
                     Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
         //dc.drawText(width/2, height/2, font, (moonage/31.0*10).format("%.0f"), 
@@ -84,7 +84,7 @@ module Fields {
         //dc.setColor(Application.getApp().getProperty("BackgroundColor"), Graphics.COLOR_TRANSPARENT);
         //dc.fillCircle(position3[1][0]-20, position3[1][1], 5);
         
-        dc.setColor(Application.getApp().getProperty("ForegroundColor"), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(color_list[Application.getApp().getProperty("ForegroundColor")], Graphics.COLOR_TRANSPARENT);
         dc.drawText(position3[1][0], position3[1][1], Graphics.FONT_TINY, moonage,
                     Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
     }
@@ -95,7 +95,7 @@ module Fields {
 
         var position6 = Hands.generateHandCoordinates([width/2, height/2], Math.PI/6*(6), (width/3.3), 0, 1);
 
-        dc.setColor(Application.getApp().getProperty("ForegroundColor"), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(color_list[Application.getApp().getProperty("ForegroundColor")], Graphics.COLOR_TRANSPARENT);
         dc.drawText(position6[1][0], position6[1][1], Graphics.FONT_TINY, Lang.format("$1$", [(steps).format("%.0f")]),
                     Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
     }
@@ -106,7 +106,7 @@ module Fields {
 
         var position9 = Hands.generateHandCoordinates([width/2, height/2], Math.PI/6*(9), (width/3)-10, 0, 1);
 
-        dc.setColor(Application.getApp().getProperty("ForegroundColor"), Graphics.COLOR_TRANSPARENT);
+        dc.setColor(color_list[Application.getApp().getProperty("ForegroundColor")], Graphics.COLOR_TRANSPARENT);
         dc.drawText( position9[1][0], position9[1][1] , Graphics.FONT_TINY, battery+"%",
                     Graphics.TEXT_JUSTIFY_CENTER|Graphics.TEXT_JUSTIFY_VCENTER);
     }

@@ -1,10 +1,10 @@
 <strings>
 
-    <string id="AppName">Simple Lines 24-hour</string>
+    <string id="AppName">Solar Lines 24-hour</string>
 
     <string id="BackgroundColor">Background Color</string>
     <string id="ForegroundColor">Foreground Color</string>
-    
+
     <string id="ShowDate">Show Date</string>
     <string id="ShowMoon">Show Moon</string>
     <string id="ShowSteps">Show Steps</string>
@@ -12,27 +12,38 @@
 
     <string id="Hand12Show">Show the 12-hour hand</string>
     <string id="Hand12Color">12-hour Hand Color</string>
-    <string id="Hand12Width">Width of 12-hour hand</string>
-    <string id="Hand12Length">Length of 12-hour hand</string>
-    
+
     <string id="Hand24Show">Show the 24-hour hand</string>
     <string id="Hand24Color">24-hour Hand Color</string>
-    <string id="Hand24Width">Width of 24-hour hand</string>
-    <string id="Hand24Length">Length of 24-hour hand</string>
 
     <string id="ShowMinuteHand">Show the minute hand</string>
     <string id="MinuteColor">Minute Hand Color</string>
-    <string id="MinuteWidth">Width of minute hand</string>
+
+    <string id="CustomHandSize">Customize Hands Sizes</string>
+    <string id="Hand12Length">12 Hours Hand Length</string>
+    <string id="Hand12Width">12 Hours Hand Width</string>
+    <string id="Hand24Length">24 Hours Hand Length</string>
+    <string id="Hand24Width">24 Hours Hand Width</string>
+    <string id="Hand24Needle">Show 24 Hours Hand needle</string>
+    <string id="HandMinuteLength">Minute Hand Length</string>
+    <string id="HandMinuteWidth">Minute Hand Width</string>
+    
+    <string id="Short">Short</string>
+    <string id="Long">Long</string>
+
+    <string id="Thinnest">Thinnest</string>
+    <string id="Thin">Thin</string>
+    <string id="Medium">Medium</string>
+    <string id="Thick">Thick</string>
+    <string id="Thickest">Thickest</string>
 
     <string id="AutomaticPosition">Get position automaticaly from last activity</string>
     <string id="Latitude">Latitude</string>
     <string id="Longitude">Longitude</string>
     <string id="ShowSunLines">Show Sunrise/Sunset Lines</string>
-    <string id="SunLinesColor">Sunrise/Sunset Color</string>
+    <string id="SunLinesColor">Sun events Color</string>
     <string id="ShowNoonLine">Show solar noon line</string>
-    
     <string id="ShowNightLines">Show Dawn/Dusk Lines</string>
-    <string id="NightLinesColor">Dawn/Dusk Color</string>
 
     <string id="ColorBlack">Black</string>
     <string id="ColorWhite">White</string>
@@ -42,9 +53,5 @@
     <string id="ColorRed">Red</string>
     <string id="ColorYellow">Yellow</string>
     <string id="ColorPink">Pink</string>
-
-    <string id="WidthLong">Long</string>
-    <string id="WidthMedium">Medium</string>
-    <string id="WidthShort">Short</string>
 
 </strings>
